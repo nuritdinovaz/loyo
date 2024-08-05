@@ -1,0 +1,115 @@
+:root {
+    --orange: #F7941E ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+.gift {
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    width: 150px;
+    height: 44px;
+    background-color: transparent;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.header .img {
+    width: 50%;
+}
+.find {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 30px;
+}
+.find-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: var(--orange);
+    border: none;
+}
+.headerr {
+    display: flex;
+    justify-content: space-between;
+}
+.how {
+    font-size: 30px;
+}
+.learn {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid var(--orange);
+    color: var(--orange);
+    background-color: transparent;
+}
+.headerr .img {
+    width: 50%;
+}
+.headerr .img img {
+    width: 100%;
+}
+.actually {
+    width: 40%;
+    padding-top: 150px;
+}
+.for {
+    text-align: center;
+    margin-top: 100px;
+}
+.cards {
+    justify-content: space-between;
+}
+.ready {
+    background-color: var(--orange);
+    margin-top: 100px;
+    padding: 50px 0px;
+    margin-bottom: 100px;
+}
+.ready .container {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.buttons button{
+    width: 200px;
+    height: 48px;
+}
+.btt {
+    background-color:  #231F20;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.btt1 {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
